@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Kevin Kranenburg">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    
+    <div class="content-box">
+    <div class="content">
+		<header class="header">
+			<h3 class="title">Body Mass Index</h3>
+        </header>
+        
+		<div id="geslacht">
+			<h4>Geslacht
+				<input type="radio" name="geslacht" value="Man" checked>Man</input>
+                <input type="radio" name="geslacht" value="Vrouw">Vrouw</input></h4>
+			</div>
+
+			<div id="input">
+				<h4>Vul je leeftijd in:
+				<input class="text-box" type="text" size="20" id="leeftijd"></h4>
+				<h4>Vul je gewicht in (in kg):
+				<input class="text-box" type="text" size="20" id="gewicht"></h4>
+				<h4>Vul je lengte in (in cm):
+                <input class="text-box" type="text" size="20" id="lengte"></h4>
+			</div>
+			<br />
+			<input class="button" type="button" value="Bereken BMI" id="bereken">
+		</div>
+		<br />
+        <div id="resultaat"></div>
+    </div>
+        
+		<script src="script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-box {
+  border: 2px solid black;
+  border-radius: 30px;
+  text-align: left;
+  width: 500px;
+}
+
+.text-box {
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 60px;
+  height: 25px;
+}
+
+.button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.content {
+  margin-left: 5px;
+}
+
+#resultaat {
+  text-align: center;
+}
